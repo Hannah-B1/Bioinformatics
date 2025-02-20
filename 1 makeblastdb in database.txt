@@ -1,0 +1,10 @@
+1. makeblastdb -in database_mystery_transcripts.fasta -dbtype nucl -out blast_database_mystery_transcripts
+2. makeblastdb -in database_mystery_proteins.fasta -dbtype prot -out blast_database_mystery_proteins
+3. blastn -db blast_database_mystery_transcripts -query query_mystery_nucleotide.fasta -evalue 1e-3 -num_alignments 5 -outfmt 7 -out results.out
+4. T010027234997, T010003453160, and T010027234995
+5. awk '$3 > 90 {print $2}' results.out > most_similar.txt
+6. blastp -db blast_database_mystery_proteins -query query_mystery_protein.fasta -evalue 1e-5 -num_alignments 15 -outfmt 6 -out results_2.out
+7. P010027090796, P010027090798, P010027073865, P010027077695, P010027071558, and P010027071553
+8. Gardenia jasminoides
+9. Gardenia jasminoides
+10. putative catalase mRNA
