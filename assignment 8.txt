@@ -1,0 +1,6 @@
+1. Anopheles albimanus (AalbS2)
+2. gene AALB004517
+3. target sequence: TGAGCTGGCCAAGATTCTGGTGG, genomic location: 3L: 10875871
+4. left primer: Sequence: GCATCATGAACGTGCTTGTACT and the coordinates: 3L: 10875957-10875979
+The right primer: Sequence: CAGATCCCTGTAAACGAAGTCC and the coordinates: 3L: 10875761-10875783
+5. if this gene is knockout the expected phenotype would be weaken immune response
